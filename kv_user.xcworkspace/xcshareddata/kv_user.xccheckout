@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B336C45E-3C20-49B1-B42D-83132DEF9730</string>
+	<key>IDESourceControlProjectName</key>
+	<string>kv_user</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>665EF73B84EC99BF754D70B2CD7144A67B3EE94D</key>
+		<string>https://github.com/triad7th/KvUser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>kv_user.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>665EF73B84EC99BF754D70B2CD7144A67B3EE94D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/triad7th/KvUser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>665EF73B84EC99BF754D70B2CD7144A67B3EE94D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>665EF73B84EC99BF754D70B2CD7144A67B3EE94D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KvUser</string>
+		</dict>
+	</array>
+</dict>
+</plist>

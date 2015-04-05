@@ -1,0 +1,19 @@
+<style>
+    .form-cmdline {
+        font-family: Courier;
+        font-size: 10px;
+        position: relative;
+        float: left;
+    }
+</style>
+<div class="form-cmdline">
+    <form class="form-cmdline" action="$action" method="post">
+        <input type="text" name="$id" id="$id" placeholder="$placeholder" size="$size" autofocus/>
+        <input type="submit" value="$submit" />
+        <input type="hidden" name="$hidden" id="$hidden" value="$hidden_value"/>
+    </form>
+    <form class="form-cmdline" style="padding : 1px;" action="$action" method="post">
+        <input type="submit" id="$logout_submit" value="$logout_submit" />
+        <input type="hidden" name="$logout_hidden" id="$logout_hidden" value="$logout_hidden_value"/>
+    </form>
+</div>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:read.me">
+   </FileRef>
+   <Group
+      location = "group:classes"
+      name = "classes">
+      <FileRef
+         location = "group:kv_fundamental.php">
+      </FileRef>
+      <FileRef
+         location = "group:kv_user.php">
+      </FileRef>
+      <FileRef
+         location = "group:kv_user_db.php">
+      </FileRef>
+      <Group
+         location = "group:queries"
+         name = "queries">
+         <FileRef
+            location = "group:create_table.sql">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:db"
+      name = "db">
+      <FileRef
+         location = "group:kv_user">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:includes"
+      name = "includes">
+      <Group
+         location = "group:forms"
+         name = "forms">
+         <FileRef
+            location = "group:form_login.html">
+         </FileRef>
+         <FileRef
+            location = "group:form_logout.html">
+         </FileRef>
+         <FileRef
+            location = "group:form_textbox.html">
+         </FileRef>
+         <FileRef
+            location = "group:form_adduser.html">
+         </FileRef>
+         <FileRef
+            location = "group:form_cmdline.html">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:kv_functions.php">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:kv_test.php">
+   </FileRef>
+</Workspace>

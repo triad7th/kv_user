@@ -1,0 +1,25 @@
+<style>
+.form-adduser {
+    font-family: Courier;
+    font-size: 10px;
+    width: ~width;
+}
+
+.form-adduser input {
+    margin-bottom: ~margin;
+}
+</style>
+<form class="form-adduser" action="$action" method="post" onkeypress="return event.keyCode != 13;">
+    <input type="text" name="id" id="id" placeholder="$id_placeholder" style="width: ~id_size" autofocus/>
+    <input type="text" name="pw" id="pw" placeholder="$pw_placeholder" style="width: ~pw_size" /><br/>
+    <input type="text" name="name" id="name" placeholder="$name_placeholder" style="width: ~name_size" />
+    <input type="text" name="email" id="email" placeholder="$email_placeholder" style="width: ~email_size" /><br/>
+    <input type="text" name="address1" id="address1" placeholder="$address1_placeholder" style="width: ~address1_size" /><br/>
+    <input type="text" name="address2" id="address2" placeholder="$address2_placeholder" style="width: ~address2_size" /><br/>
+    <input type="text" name="zipcode" id="zipcode" placeholder="$zipcode_placeholder" style="width: ~zipcode_size" />
+    <input type="text" name="country" id="country" placeholder="$country_placeholder" style="width: ~country_size" />
+
+    <input type="submit" value="$submit" />
+    <input type="hidden" name="$hidden" id="$hidden" value="$hidden_value"/>
+</form>
+

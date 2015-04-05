@@ -1,0 +1,36 @@
+<?php
+    require_once "classes/kv_user_db.php";
+    require_once "includes/kv_functions.php";
+
+
+    $users_db = new KvUserDB('kv_user');
+    $users_db->printUsers();
+
+    if( $_SERVER['REQUEST_METHOD'] == 'GET' ) {
+        
+        kv::form_textbox(array(
+            'action'=>'db1.php',
+            'id'=>'cmd',
+            'size'=>'80'
+        ));
+    } else {
+        switch($_POST['cmd']) {
+            case 'list' :
+                kv::form_textbox(array(
+                    'action'=>'db1.php',
+                    'size'=>'80',
+                    'id'=>'cmd'
+                ));
+                break;
+            default : 
+                kv::kprint("command is : {$_POST['cmd']}");
+                kv::form_textbox(array(
+                    'action'=>'db1.php',
+                    'size'=>'80',
+                    'id'=>'cmd'
+                ));
+                break;
+        }                
+    }
+    unset($users_db);
+?>
