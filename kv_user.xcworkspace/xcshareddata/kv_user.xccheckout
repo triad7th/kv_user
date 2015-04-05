@@ -12,22 +12,34 @@
 	<dict>
 		<key>665EF73B84EC99BF754D70B2CD7144A67B3EE94D</key>
 		<string>https://github.com/triad7th/KvUser.git</string>
+		<key>E9C96B3C5104F3D593EEDE55CA7298860796F021</key>
+		<string>https://github.com/triad7th/kv_user.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>kv_user.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>665EF73B84EC99BF754D70B2CD7144A67B3EE94D</key>
+		<string>../../KvUser</string>
+		<key>E9C96B3C5104F3D593EEDE55CA7298860796F021</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/triad7th/KvUser.git</string>
+	<string>https://github.com/triad7th/kv_user.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>665EF73B84EC99BF754D70B2CD7144A67B3EE94D</string>
+	<string>E9C96B3C5104F3D593EEDE55CA7298860796F021</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E9C96B3C5104F3D593EEDE55CA7298860796F021</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kv_user</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

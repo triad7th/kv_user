@@ -379,7 +379,7 @@ class KvUserDB extends KvFundamental {
             //
             // if db is connected
             //
-            if( ($count = $this->getLargestPrimekey()) === false) return false;
+            if( ($count = $this->getLargestPrimekey()) === false) $count=0;
             
             if($count !== false ) {
                 // add count
